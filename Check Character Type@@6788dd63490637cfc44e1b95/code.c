@@ -10,8 +10,11 @@ int main() {
     {
         printf("Consonant");
     }
-    else
+    else if (a =='@'|| a =='#' || a=='$')
     {
+        printf("Special Character");
+    }
+    else{
         printf("Digit");
     }
 }
