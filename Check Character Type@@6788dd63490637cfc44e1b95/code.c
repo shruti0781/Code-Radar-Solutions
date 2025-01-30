@@ -12,6 +12,6 @@ int main() {
     }
     else
     {
-        printf("Digit")
+        printf("Digit");
     }
 }
