@@ -6,4 +6,12 @@ int main() {
     {
         printf("Vowel");
     }
+    else if (a>'b'&& a<='d'|| a>'f' && a<='h' ||a>'j' && a<='n'|| a>'p' && a<='t'|| a>'v'&& a<='z')
+    {
+        printf("Consonant");
+    }
+    else
+    {
+        printf("Digit")
+    }
 }
