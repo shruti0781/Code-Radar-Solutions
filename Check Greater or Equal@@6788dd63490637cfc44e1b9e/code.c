@@ -4,12 +4,12 @@ int main() {
   int a,b;
   scanf("%d",&a);
   
-   if (a>b || b<a )
+if (a>=b)
   {
     printf("Yes");
   }
-  else if (a==b)
+  else 
   {
-    printf("Yes");
+    printf("No");
   }
 }
