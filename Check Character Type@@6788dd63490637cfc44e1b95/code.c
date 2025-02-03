@@ -10,7 +10,7 @@ int main() {
     {
         printf("Consonant");
     }
-    else if (a =='@'|| a =='#' || a=='$'|| a=='!'|| a==':'||a=='~'|| a==';')
+    else if (a =='@'|| a =='#' || a=='$'|| a=='!'|| a==':'||a=='~'|| a==';'|| a=='!')
     {
         printf("Special Character");
     }
