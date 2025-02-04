@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main() {
-   int a,b,d;
-   char c;
+   int a,b,d,c;
    scanf("%d",&a);
    scanf("%d",&b);
-   scanf("%c",&c);
+   scanf("%d",&c);
    if(d=='+')
    {
     printf("%d",a+b);
