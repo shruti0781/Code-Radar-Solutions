@@ -34,4 +34,8 @@ int main() {
    {
     printf("Sunday");
    }
+   if(b==8)
+   {
+    printf("Invalid");
+   }
 }
