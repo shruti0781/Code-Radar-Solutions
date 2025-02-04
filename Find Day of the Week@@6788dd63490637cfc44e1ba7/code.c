@@ -2,6 +2,10 @@
 int main() {
    int b;
    scanf("%d",&b);
+   if(b==0)
+   {
+    printf("Invalid");
+   }
    if(b==1)
    {
     printf("Monday");
