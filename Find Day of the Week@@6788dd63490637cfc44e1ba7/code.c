@@ -26,4 +26,8 @@ int main() {
    {
     printf("Saturday");
    }
+   if(b==7)
+   {
+    printf("Sunday");
+   }
 }
