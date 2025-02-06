@@ -20,6 +20,10 @@ int main() {
     }
      if(a =='F')
     {
+        printf("Fail");
+    }
+     if(a =='E')
+    {
         printf("Invalid grade");
     }
 }
