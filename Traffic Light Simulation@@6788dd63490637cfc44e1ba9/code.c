@@ -6,11 +6,11 @@ int main() {
    {
     printf("Stop");
    }
-    if(c=='G')
+    else if(c=='G')
    {
     printf("Go");
    }
-    if(c=='Y')
+    else if(c=='Y')
    {
     printf("Slow Down");
    }
