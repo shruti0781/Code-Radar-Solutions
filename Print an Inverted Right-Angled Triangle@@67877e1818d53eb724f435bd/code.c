@@ -2,8 +2,9 @@
 int main() {
     int a;
     printf("%d",&a);
-    for(i=1;i<=a;i--)
+    for(i=1;i<=a;)
     {
         printf("*");
+        i--;
     }
 }
