@@ -6,4 +6,20 @@ int main() {
     {
         printf("Excellent");
     }
+     if(a =='B')
+    {
+        printf("Good");
+    }
+     if(a =='C')
+    {
+        printf("Average");
+    }
+     if(a =='D')
+    {
+        printf("Below Average");
+    }
+     if(a =='F')
+    {
+        printf("Invalid grade");
+    }
 }
