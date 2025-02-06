@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main() {
     int a;
-    printf("%d",&a);
-    for(i=1;i<=a;)
-    {
-        printf("*");
-        i--;
-    }
+    scanf("%d",&a);
+   for(i=1;i<=a;i--)
+   {
+    printf("*");
+   }
 }
