@@ -4,7 +4,8 @@
 
 int main()
 {
-    int rows = 5;
+    int rows ;
+    scanf("%d",&rows);
 
     // first loop to print all rows
     for (int i = 0; i < rows; i++) {
