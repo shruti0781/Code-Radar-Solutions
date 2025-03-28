@@ -21,7 +21,7 @@ int main(){
             printf(" ");
         }
         for(int j=0;j<=i;j++){
-            printf("%d ",comb(i,j));
+            printf("*");
         }
         printf("\n");
     }
