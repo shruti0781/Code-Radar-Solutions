@@ -16,7 +16,7 @@ int combination(int n,int r){
 int main(){
     int a;
     scanf("%d",&a);
-    for(int i=1;i<=a;i++){
+    for(int i=0;i<=a;i++){
         for(int k=1;k<a-i;k++){
             printf(" ");
         }
