@@ -1,26 +1,28 @@
-#include <stdio.h>
-
-int main() {
-    int i, j, rows;
-
-    // Get the number of rows for the pyramid from the user
-    scanf("%d", &rows);
-
-    // Loop for each row
-    for (i = 1; i <= rows; i++) {
-        // Loop to print spaces before stars in each row
-        for (j = 1; j <= rows - i; j++) {
-            printf(" ");  // Print spaces for proper alignment
+// Your code here...
+#include<stdio.h>
+int factorial(int n){
+int fact=1;
+for(int i=2;i<=n;i++)
+{
+    fact*=i;
+}
+return fact;
+}
+int combination(int n,int r){
+    int comb;
+    comb= factorial(n)/(factorial(n-r)*factorial(r));
+    return comb;
+}
+int main(){
+    int a;
+    scanf("%d",&a);
+    for(int i=0;i<=a;i++){
+        for(int k=0;k<a-i;k++){
+            printf(" ");
         }
-
-        // Loop to print stars in each row
-        for (j = 1; j <= (2 * i - 1); j++) {
-            printf("*");  // Print stars
+        for(int j=0;j<=i;j++){
+            printf("%d ",comb(i,j));
         }
-
-        // Move to the next line after completing each row
         printf("\n");
     }
-
-    return 0;
 }
