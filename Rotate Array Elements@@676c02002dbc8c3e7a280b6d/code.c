@@ -6,7 +6,7 @@ int main()
    
    // Input the array size and shift count
    scanf("%d", &n);
-   scanf("%d", &shift);
+  
 
    int a[n];
 
@@ -14,7 +14,7 @@ int main()
    for (l = 0; l < n; l++) {
        scanf("%d", &a[l]);
    }
-
+ scanf("%d", &shift);
    // Perform right shifts
    while (shift) {
        temp = a[n - 1];
