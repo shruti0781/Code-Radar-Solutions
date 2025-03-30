@@ -8,10 +8,10 @@ int isPrime(int num) {
              break;  // If divisible, it's not a prime number
         }
         if(num==i){
-            return 0;
+            return 1;
         }
         else 
-        return 1;
+        return 0;
     }
     
     return 1;  // If no divisors found, it's prime
