@@ -8,5 +8,5 @@ for(round=1;round<=n-1;round++){
     }
    
 }
-return round;
+return count;
 }
