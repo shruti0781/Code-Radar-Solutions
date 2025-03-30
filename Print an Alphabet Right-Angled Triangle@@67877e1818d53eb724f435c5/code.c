@@ -10,6 +10,7 @@ int main() {
         for (j = 1; j <= n; j++) {
             if (j>=1&&j<=n+1-i) {
                 printf("%c ",a);
+                a++;
             } else {
                 printf(" ");
             }
