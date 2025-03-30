@@ -6,6 +6,6 @@ for(round=1;round<=n-1;round++){
             count++;
         }
     }
-   return count;
+   return count+2;
 }
 }
