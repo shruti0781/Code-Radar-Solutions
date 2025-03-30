@@ -6,7 +6,7 @@ void bubbleSort(int b[], int n);
 
 // Function to print the array
 void printArray(int A[], int n) {
-    for (int i = 0; i <= n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", A[i]);  // Space added for readability
     }
     printf("\n");  // Newline for better formatting
