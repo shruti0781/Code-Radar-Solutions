@@ -1,12 +1,19 @@
-// Your code here...
 #include<stdio.h>
-int main(){
-    int rows;
-    scanf("%d",&rows);
-    for(int i=1; i<=rows;i++){
-        for(int j=1; j<=i; j++){
-            printf("* ");
+int main()
+{
+    int i,j,n;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        for(j=1;j<=n;j++){
+            if(j<=i){
+                printf("* ");
+            }
+            else{
+                printf(" ");
+
+            }
         }
-        printf(" \n");
+        printf("\n");
     }
+   
 }
