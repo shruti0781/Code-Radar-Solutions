@@ -28,7 +28,7 @@ int main()
 
    // Print the shifted array with spaces
    for (i = 0; i < n; i++) {
-       printf("%d ", a[i]);
+       printf("\n%d ", a[i]);
    }
 
    return 0;
