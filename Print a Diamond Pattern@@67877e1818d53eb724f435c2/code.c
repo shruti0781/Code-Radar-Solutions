@@ -8,7 +8,7 @@ int main() {
     for (i = 1; i <= n; i++) {
         k<=(n+1)/2?(k==i):(n+1)-i;
         for (j = 1; j <= n; j++) {
-            if (j>=((n+1)/2)+1-k && j<=((n+1)/2)+k-1) {
+            if (j>=((n+1)/2)+1-k ) {
                 printf("*");
             } else {
                 printf(" ");
