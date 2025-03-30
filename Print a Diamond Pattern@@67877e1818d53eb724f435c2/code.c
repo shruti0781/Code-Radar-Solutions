@@ -5,6 +5,7 @@ int main() {
     int i, j, n,k,v;
     scanf("%d", &n);
      v=(n+1)/2;
+     k=0;
     for (i = 1; i <= 2*n-1; i++) {
         i<=v?k++:k--;
         for (j = 1; j <= n; j++) {
