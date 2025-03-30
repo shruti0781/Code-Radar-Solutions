@@ -7,12 +7,10 @@ int isPrime(int num) {
         if (num % i == 0) {
              break;  // If divisible, it's not a prime number
         }
-        if(num==i){
+        if(num == i){
             return 1;
         }
         else 
         return 0;
     }
-    
-    return 1;  // If no divisors found, it's prime
 }
