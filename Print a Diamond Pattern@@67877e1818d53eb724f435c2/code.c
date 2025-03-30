@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 int main() {
-    int i, j, n,k;
+    int i, j, n,k,v;
     scanf("%d", &n);
-
+v=(n+1)/2;
     for (i = 1; i <= 2*n-1; i++) {
-        i<=((n+1)/2)?(k=i):(k=(n+1)-i);
+        i<=v?(k=i):(k=(n+1)-i);
         for (j = 1; j <= n; j++) {
-            if (j>=((n+1)/2)+1-k && j<=((n+1)/2)+k-1) {
+            if (j>=v+1-k && j<= v+k-1) {
                 printf("*");
             } else {
                 printf(" ");
