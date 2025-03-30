@@ -1,8 +1,8 @@
 // Your code here...
 int num(int num){
-    int i;
+    int i,j;
     while(i=1;i<=num;i++){
-        for(int j=2;j<num;j++){
+        for(j=2;j<num;j++){
             break;
         }
         if(j== num){
