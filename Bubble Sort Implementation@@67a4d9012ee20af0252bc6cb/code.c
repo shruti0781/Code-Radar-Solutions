@@ -1,6 +1,6 @@
 // Your code here...
 #include<stdio.h>
-void printArray(int,int);
+void printArray();
 void bubblesort();
 void printArray(int A[],int n){
     int i;
