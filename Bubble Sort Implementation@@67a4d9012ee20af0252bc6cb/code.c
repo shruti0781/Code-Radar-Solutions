@@ -25,7 +25,7 @@ void bubbleSort(int b[], int n) {
             }
         }
     }
-    printArray(b, n);  // Print sorted array inside sorting function
+     // Print sorted array inside sorting function
 }
 
 // Main function
