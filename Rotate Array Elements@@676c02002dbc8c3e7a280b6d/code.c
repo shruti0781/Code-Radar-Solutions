@@ -2,11 +2,11 @@
 
 int main()
 {
-   int temp,i,n,shift;
+   int temp,i,n,shift,l;
    scanf("%d",&n);
    int a[n];
-   for(i=1;i<=n;i++){
-    scanf("%d",&a[i]);
+   for(l=1;l<=n;l++){
+    scanf("%d",&a[l]);
    }
    while(shift){
    temp=a[n-1];
