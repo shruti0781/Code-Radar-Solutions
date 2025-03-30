@@ -8,10 +8,10 @@ int isPrime(int num){
             break;
         
         if(j == num){
-            return v;
+            return 1;
         }
         else{
-            return z;
+            return 0;
         }
     }
 }
