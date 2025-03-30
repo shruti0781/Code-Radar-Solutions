@@ -1,7 +1,7 @@
 // Your code here...
 int num(int num){
     int i,j;
-    while(i=1;i<=num;i++){
+    while(i=1,i<=num;i++){
         for(j=2;j<num;j++){
             break;
         
