@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main(){
+    int a,i,k,temp;
+    scanf("%d",&a);
+    int arr[a];
+    for(i=1;i<=a;i++){
+        scanf("%d",&arr[i]);
+    }
+scanf("%d",&k);
+while(k){
+    temp=arr[a-1];
+    for(i=a-1;i>=1;i--){
+        a[i]=a[i-1];
+    }
+    a[0]=temp;
+}
+for(i=0,i<=a,i++){
+    printf("%d",arr[i]);
+}
+}
