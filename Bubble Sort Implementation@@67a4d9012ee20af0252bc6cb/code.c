@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
-void printArray();
-void bubblesort();
+void printArray(int A[], int n);
+void bubbleSort(int b[], int n);
 void printArray(int A[],int n){
     int i;
     for(i=0;i<n;i++){
@@ -17,7 +17,7 @@ void bubbleSort(int b[],int n){
             {
                 temp=b[i+1];
                 b[i+1]=b[i];
-                b[i+1]=temp;
+                b[i]=temp;
             }
         }
     }
