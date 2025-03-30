@@ -4,7 +4,7 @@
 int main() {
     int i, j, n,k=0,v;
     scanf("%d", &n);
-     v=((n+1)/2);
+     v=((2*n+1)/2);
     for (i = 1; i <= 2*n-1; i++) {
         i<=v?k++:k--;
         for (j = 1; j <= 2*n-1; j++) {
