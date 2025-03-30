@@ -13,6 +13,7 @@ while(k){
         arr[i]=arr[i-1];
     }
     arr[0]=temp;
+    k--;
 }
 for(i=0;i<=a;i++){
     printf("%d",arr[i]);
