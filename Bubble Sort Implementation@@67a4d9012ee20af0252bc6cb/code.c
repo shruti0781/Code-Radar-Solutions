@@ -8,7 +8,7 @@ void printArray(int A[],int n){
         printf("%d",A[i]);
     }
 }
-void bubblesort(int b[],int n){
+void bubbleSort(int b[],int n){
     int round,i,temp;
     for(round=1;round<=n-1;round++)
     {
