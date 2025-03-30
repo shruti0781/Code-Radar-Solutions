@@ -1,18 +1,13 @@
-// Your code here...
-int isPrime(int num){
-    int i,j,v=1,z=0;
-    for(i=1;i<=num;i++)
-    {
-        for(j=2;j<num;j++){
-            if(i%j==0)
-            break;
-        
-        if(j == num){
-            return 1;
-        }
-        else{
-            return 0;
+int isPrime(int num) {
+    if (num < 2) {
+        return 0;  // Numbers less than 2 are not prime
+    }
+
+    for (int i = 2; i * i <= num; i++) {  // Check divisibility up to sqrt(num)
+        if (num % i == 0) {
+            return 0;  // If divisible, it's not a prime number
         }
     }
-}
+    
+    return 1;  // If no divisors found, it's prime
 }
