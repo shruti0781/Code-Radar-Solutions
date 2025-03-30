@@ -4,7 +4,7 @@ int num(int num){
     while(i=1;i<=num;i++){
         for(j=2;j<num;j++){
             break;
-        }
+        
         if(j== num){
             return 1;
         }
@@ -12,4 +12,5 @@ int num(int num){
             return 0;
         }
     }
+}
 }
