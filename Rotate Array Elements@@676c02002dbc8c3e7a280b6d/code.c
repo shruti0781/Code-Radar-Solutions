@@ -14,7 +14,7 @@ while(k){
     }
     arr[0]=temp;
 }
-for(i=0,i<=a,i++){
+for(i=0;i<=a;i++){
     printf("%d",arr[i]);
 }
 }
