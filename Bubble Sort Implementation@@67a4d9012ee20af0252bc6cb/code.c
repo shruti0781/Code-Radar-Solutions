@@ -29,17 +29,3 @@ void bubbleSort(int b[], int n) {
 }
 
 // Main function
-int main() {
-    int n;
-    scanf("%d", &n);  // Read the number of elements
-
-    int arr[n];  // Declare array
-
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);  // Input array elements
-    }
-
-    bubbleSort(arr, n);  // Call bubble sort
-
-    return 0;  // Indicate successful execution
-}
