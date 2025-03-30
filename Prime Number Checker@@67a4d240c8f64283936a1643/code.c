@@ -1,5 +1,5 @@
 // Your code here...
-int Prime(int num){
+int isPrime(int num){
     int i,j;
     while(i=1,i<=num,i++){
         for(j=2;j<num;j++){
