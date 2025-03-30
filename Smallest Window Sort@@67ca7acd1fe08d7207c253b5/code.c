@@ -6,6 +6,6 @@ int round,i,count=0;
             count++;
         }
     }
-   
+   return count;
 }
-return count;
+
