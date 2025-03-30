@@ -2,7 +2,7 @@
 int num(int num){
     int i;
     while(i=1;i<=num;i++){
-        for(int j=2;j<n;j++){
+        for(int j=2;j<num;j++){
             break;
         }
         if(j== num){
