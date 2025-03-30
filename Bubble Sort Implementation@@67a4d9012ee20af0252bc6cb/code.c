@@ -1,35 +1,44 @@
-// Your code here...
-#include<stdio.h>
+#include <stdio.h>
+
+// Correct function declarations
 void printArray(int A[], int n);
 void bubbleSort(int b[], int n);
-void printArray(int A[],int n){
-    int i;
-    for(i=0;i<n;i++){
-        printf("%d",A[i]);
+
+// Function to print array
+void printArray(int A[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", A[i]);  // Added space for readability
     }
+    printf("\n");  // Move to a new line after printing
 }
-void bubbleSort(int b[],int n){
-    int round,i,temp;
-    for(round=1;round<=n-1;round++)
-    {
-        for(i=0;i<=n-1-round;i++){
-            if(b[i]>b[i+1])
-            {
-                temp=b[i+1];
-                b[i+1]=b[i];
-                b[i]=temp;
+
+// Function to perform bubble sort
+void bubbleSort(int b[], int n) {
+    int round, i, temp;
+    for (round = 1; round <= n - 1; round++) {
+        for (i = 0; i < n - round; i++) {  // Fixed loop condition
+            if (b[i] > b[i + 1]) {
+                // Correct swap
+                temp = b[i];
+                b[i] = b[i + 1];
+                b[i + 1] = temp;
             }
         }
     }
-    printArray(b,n);
+    printArray(b, n);  // Print sorted array inside sorting function
 }
-int main(){
+
+// Main function
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    bubbleSort(arr,n);
-    printArray(arr,n);
+
+    bubbleSort(arr, n);
+
+    return 0;  // Indicate successful execution
 }
