@@ -2,8 +2,12 @@
 
 int main()
 {
-   int a[5]={1,2,3,4,5};
-   int temp,i,n=5,shift=5;
+   int temp,i,n,shift;
+   scanf("%d",&n);
+   int a[n];
+   for(i=1;i<=n;i++){
+    scanf("%d",&a[i]);
+   }
    while(shift){
    temp=a[n-1];
    for(i=n-1;i>=1;i--){
